@@ -1,0 +1,97 @@
+.aboutText {
+  background-color: white;
+}
+.aboutText .aboutText__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutText .aboutText__container h2 {
+  flex: 1 1 100%;
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  margin: 3rem 0 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+.aboutText .aboutText__container h2:hover {
+  scale: 1.05;
+}
+.aboutText .aboutText__container .aboutText__container__boxes {
+  flex: 1 1 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.aboutText .aboutText__container .aboutText__container__boxes p {
+  flex: 1 1 45%;
+  min-width: 250px;
+  text-align: center;
+  color: black;
+  margin: auto;
+  padding: 2rem;
+  font-family: "Tomorrow", sans-serif;
+}
+.aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+  flex: 1 1 45%;
+  width: 40%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: block;
+}
+.aboutText .aboutText__container .aboutText__container__boxes1 .aboutImagebox {
+  background-image: url("../../../../images/aboutText1.jpg");
+}
+.aboutText .aboutText__container .aboutText__container__boxes2 .aboutImagebox {
+  background-image: url("../../../../images/aboutText2.jpg");
+}
+@media (min-width: 600px) {
+  .aboutText .aboutText__container h2 {
+    margin: 3rem 0 2rem;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+    height: 550px;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 700px) {
+  .aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+    height: 350px;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 800px) {
+  .aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+    height: 400px;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 900px) {
+  .aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+    height: 450px;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1000px) {
+  .aboutText .aboutText__container .aboutText__container__boxes .aboutImagebox {
+    height: 500px;
+  }
+  .aboutText .aboutText__container .aboutText__container__boxes p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=AboutText.css.map */
