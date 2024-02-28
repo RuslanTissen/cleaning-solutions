@@ -1,0 +1,37 @@
+.introduction{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.introduction__img{
+		width: min(1500px, 90vw);
+		margin: 0 1rem;
+		height: 60vh;
+		background-image: url("../../images/cleaning-intro.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		object-fit: contain;
+		h1{
+			color: white;
+			font-size: 5rem;
+			text-align: center;
+		}
+	}
+	.introduction__link-cont{
+
+	}
+}
+
+@media (min-width: 1060px) {
+	.introdiuction{
+		.introduction__img{
+		}
+		.introduction__link-cont{
+	
+		}
+	}
+}

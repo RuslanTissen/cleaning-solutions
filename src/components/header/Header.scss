@@ -7,7 +7,7 @@
 		position: fixed;
 		top: 0;
 		margin: 0;
-		padding: 0.5rem 1rem;
+		// padding: 0.5rem 1rem;
 		list-style-type: none;
 		display: flex;
 		.logo-box {
@@ -35,6 +35,7 @@
 			align-items: center;
 			justify-content: end;
 			transition: all 0.3s ease-in-out;
+			margin-right: 1rem;
 			svg {
 				font-size: 2rem;
 				color: black;
@@ -51,6 +52,7 @@
 			top: 6rem;
 			left: 0;
 			.humburger-menu__container--link {
+				// text-align: center;
 				a {
 					display: flex;
 					justify-content: center;
@@ -76,7 +78,7 @@
 		.header__big-container {
 			display: block;
 			.ul__container {
-				padding-block: 1rem;
+				// padding-block: 1rem;
 				position: fixed;
 				top: 0;
 				width: 100%;
@@ -111,7 +113,7 @@
 							}
 						}
 					}
-				
+
 					.humburger-menu__container--link {
 						text-transform: uppercase;
 						flex: 1 1 auto;
@@ -132,7 +134,7 @@
 							transition: all 0.3s ease-in-out;
 						}
 					}
-					
+
 					.humburger-menu__container--link a:hover {
 						color: rgb(184, 116, 43);
 					}
