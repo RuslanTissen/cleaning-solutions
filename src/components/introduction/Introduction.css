@@ -19,7 +19,23 @@
      object-fit: contain;
 }
 .introduction .introduction__img h1 {
+  max-width: 300px;
+  font-family: "Roboto Condensed", sans-serif;
   color: white;
-  font-size: 5rem;
+  font-size: clamp(3rem, 5vw, 5rem);
   text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.introduction .introduction__link-cont h3 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.introduction .introduction__link-cont a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.introduction .introduction__link-cont h6 {
+  font-style: italic;
+  font-weight: 100;
 }/*# sourceMappingURL=Introduction.css.map */
