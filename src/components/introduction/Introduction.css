@@ -1,12 +1,12 @@
 .introduction {
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .introduction .introduction__img {
-  width: min(1500px, 90vw);
-  margin: 0 1rem;
+  width: 100%;
   height: 60vh;
   background-image: url("../../images/cleaning-intro.jpg");
   background-position: center;
@@ -27,15 +27,49 @@
   font-weight: 100;
   text-transform: uppercase;
 }
+.introduction .introduction__link-cont {
+  width: min(1500px, 90vw);
+  padding: 2rem;
+}
 .introduction .introduction__link-cont h3 {
+  width: -moz-fit-content;
+  width: fit-content;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
 }
 .introduction .introduction__link-cont a {
+  width: -moz-fit-content;
+  width: fit-content;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  background-color: rgb(206, 203, 203);
+  transition: all 0.3s ease-in-out;
+  display: block;
+  margin: 1rem 0;
 }
 .introduction .introduction__link-cont h6 {
+  width: -moz-fit-content;
+  width: fit-content;
   font-style: italic;
   font-weight: 100;
+}
+.introduction .introduction__link-cont a:hover {
+  background-color: rgb(102, 101, 101);
+  color: white;
+}
+
+@media (min-width: 1060px) {
+  .introduction .introduction__link-cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .introduction .introduction__link-cont h3 {
+    flex: 1 1 40%;
+    width: 50vw;
+  }
+  .introduction .introduction__link-cont h6 {
+    margin-top: 0;
+    flex: 1 1 100%;
+  }
 }/*# sourceMappingURL=Introduction.css.map */
