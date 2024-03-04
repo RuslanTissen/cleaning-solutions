@@ -46,7 +46,8 @@
 		h6 {
 			width: fit-content;
 			font-style: italic;
-			font-weight: 100;
+			font-weight: 300;
+			font-style: italic;
 		}
 	}
 	.introduction__link-cont a:hover {
@@ -57,8 +58,8 @@
 
 @media (min-width: 1060px) {
 	.introduction {
-		.introduction__img {
-		}
+		// .introduction__img {
+		// }
 		.introduction__link-cont {
 			display: flex;
 			flex-wrap: wrap;
@@ -66,9 +67,9 @@
 				flex: 1 1 40%;
 				width: 50vw;
 			}
-			a {
+			// a {
 				// display: inline-block;
-			}
+			// }
 			h6 {
 				margin-top: 0;
 				flex: 1 1 100%;
