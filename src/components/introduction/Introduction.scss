@@ -1,4 +1,5 @@
 .introduction {
+	height: 100vh;
 	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
@@ -6,7 +7,7 @@
 	justify-content: center;
 	.introduction__img {
 		width: 100%;
-		height: 60vh;
+		height: inherit;
 		background-image: url("../../images/cleaning-intro.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -27,27 +28,47 @@
 	}
 	.introduction__link-cont {
 		width: min(1500px, 90vw);
-		padding: 2rem;
+		padding: 2rem 2rem 2rem 0;
 		h3 {
 			width: fit-content;
 			text-transform: uppercase;
 			font-weight: 300;
+			align-self: center;
+			margin-bottom: 0;
+			padding-left: .5rem;
+			display: flex;
+			flex-direction: column;
+			span{
+				font-size: .6rem;
+				font-weight: 300;
+			font-style: italic;
+			}
 		}
+		// h6 {
+		// 	width: fit-content;
+		// 	font-weight: 300;
+		// 	font-style: italic;
+		// 	margin: 0;
+		// 	padding-left: .5rem;
+		// }
 		a {
 			width: fit-content;
 			text-decoration: none;
 			text-transform: uppercase;
-			padding: 0.5rem 2rem;
-			background-color: rgb(206, 203, 203);
+			padding: 0.5rem 2rem 0.5rem 2rem;
+			background-color: white;
 			transition: all 0.3s ease-in-out;
-			display: block;
 			margin: 1rem 0;
-		}
-		h6 {
-			width: fit-content;
-			font-style: italic;
-			font-weight: 300;
-			font-style: italic;
+			color: rgb(45, 46, 45);
+			font-size: clamp(1rem, 3vw, 1.3rem);
+			font-weight: 800;
+			display: flex;
+			align-items: center;
+			border-radius: 50px;
+			border: 1px solid black;
+			svg {
+				margin-left: 1.5rem;
+			}
 		}
 	}
 	.introduction__link-cont a:hover {
@@ -64,15 +85,19 @@
 			display: flex;
 			flex-wrap: wrap;
 			h3 {
-				flex: 1 1 40%;
-				width: 50vw;
+				flex: 1 1 70%;
+				margin: auto;
+				padding: 0;
 			}
-			// a {
-				// display: inline-block;
+			// h6 {
+			// 	order: 3;
+			// 	flex: 0 1 auto;
+			// 	padding: 0;
 			// }
-			h6 {
-				margin-top: 0;
-				flex: 1 1 100%;
+			a {
+				order: 2;
+				flex:0 1 auto;
+				margin: 0;
 			}
 		}
 	}

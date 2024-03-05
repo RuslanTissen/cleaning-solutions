@@ -38,7 +38,7 @@ function Header() {
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
-				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LMG </span>  Cleaning</NavLink> </li>
+				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
@@ -54,7 +54,7 @@ function Header() {
 			<div className='header__big-container' >
 				{/* <div className="ul__container"> */}
 					<ul className='header__big-container--ul'>
-						<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LMG </span>  Cleaning</NavLink> </li>
+						<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</NavLink> </li>
 
 						{/* <li className='li1'><NavLink to="*" onClick={scrollToTheTop}></NavLink> </li> */}
 						<li className='humburger-menu__container--link'><NavLink to="Home" onClick={scrollToTheTop}>Home</NavLink> </li>
