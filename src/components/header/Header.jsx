@@ -2,8 +2,8 @@ import React, { useState, useContext, useEffect, useRef } from 'react'
 import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
-// import { Context } from '../Context.js';
 import { NavLink } from 'react-router-dom';
+// import { Context } from '../Context.js';
 // import logo from "../../images/cleaning-logo-tranc.png"
 
 
