@@ -14,8 +14,8 @@ function Footer() {
 
 	return (
 		<div className='footer'>
-		<h4>Copyright © 2018 - 2024 | Cleaning solutions. All Rights Reserved.</h4>
-		<h4>Web Design by Tissen Studio | Privacy Policy | Disclaimer | </h4>
+			<h5>Copyright © 2018 - 2024 | Cleaning solutions. All Rights Reserved.</h5>
+			<h5>Web Design by Tissen Studio | Privacy Policy | Disclaimer | </h5>
 		</div>
 	)
 }
