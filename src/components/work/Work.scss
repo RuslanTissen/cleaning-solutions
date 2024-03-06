@@ -1,9 +1,9 @@
 .work {
-	// margin-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	font-family: "Roboto Condensed", sans-serif;
-	border-top: 0.1px rgb(182, 181, 181) solid;
+	border-bottom: 0.1px rgb(182, 181, 181) solid;
+	// margin-bottom: 3rem;
 	.work__galery-box {
 		width: min(1500px, 90vw);
 		margin-inline: auto;

@@ -4,6 +4,10 @@
 	display: flex;
 	flex-direction: column;
 	font-family: "Roboto Condensed", sans-serif;
+	// margin-bottom: 3rem;
+	border-top: 0.1px solid rgb(182, 181, 181);
+	border-bottom: 0.1px solid rgb(182, 181, 181) ;
+	margin-bottom: 3rem;
 	.about__image {
 		width: 100%;
 		height: clamp(200px, 70vw, 600px);
@@ -58,6 +62,7 @@
 	.about {
 		flex-direction: row;
 		flex-wrap: wrap;
+		border-bottom: none;
 		.about__image {
 			flex: 1 1 45%;
 			height: 700px;
@@ -87,57 +92,52 @@
 	}
 }
 
-		
-
-
-
-
 // @media (min-width: 400px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 250px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 500px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 300px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 600px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 350px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 700px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 400px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 800px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 450px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 900px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 500px;
-		// 		}
-		// 	}
-		// }
-		// @media (min-width: 1000px) {
-		// 	.about {
-		// 		.about__image {
-		// 			height: 550px;
-		// 		}
-		// 	}
-		// }
+// 	.about {
+// 		.about__image {
+// 			height: 250px;
+// 		}
+// 	}
+// }
+// @media (min-width: 500px) {
+// 	.about {
+// 		.about__image {
+// 			height: 300px;
+// 		}
+// 	}
+// }
+// @media (min-width: 600px) {
+// 	.about {
+// 		.about__image {
+// 			height: 350px;
+// 		}
+// 	}
+// }
+// @media (min-width: 700px) {
+// 	.about {
+// 		.about__image {
+// 			height: 400px;
+// 		}
+// 	}
+// }
+// @media (min-width: 800px) {
+// 	.about {
+// 		.about__image {
+// 			height: 450px;
+// 		}
+// 	}
+// }
+// @media (min-width: 900px) {
+// 	.about {
+// 		.about__image {
+// 			height: 500px;
+// 		}
+// 	}
+// }
+// @media (min-width: 1000px) {
+// 	.about {
+// 		.about__image {
+// 			height: 550px;
+// 		}
+// 	}
+// }

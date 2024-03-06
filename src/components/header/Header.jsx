@@ -34,7 +34,6 @@ function Header() {
 		window.scroll(0, 0)
 	}
 
-
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>

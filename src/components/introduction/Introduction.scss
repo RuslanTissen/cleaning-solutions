@@ -5,6 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	
 	.introduction__img {
 		width: 100%;
 		height: inherit;
@@ -28,7 +29,9 @@
 	}
 	.introduction__link-cont {
 		width: min(1500px, 90vw);
-		padding: 2rem 2rem 2rem 0;
+		padding: 2rem 2rem 0 0;
+		border-bottom: .1px solid rgb(167, 164, 164);
+		margin-bottom: 3rem;
 		h3 {
 			width: fit-content;
 			text-transform: uppercase;
@@ -72,8 +75,8 @@
 
 @media (min-width: 1060px) {
 	.introduction {
-		border-bottom: .1px solid rgb(182, 181, 181);
 		.introduction__link-cont {
+			border-bottom: none;
 			display: flex;
 			flex-wrap: wrap;
 			h3 {
