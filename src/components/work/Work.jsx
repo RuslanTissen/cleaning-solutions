@@ -15,7 +15,7 @@ function Work() {
 			<div className="work__text-box">
 				<h5>Recent services provided</h5>
 				<h2>We assisted our clients.</h2>
-				<a>get a contact <FaArrowRight /></a>
+				<a href='mailto:rthyssen73@gmail.com'  target="_blank">get a contact <FaArrowRight /></a>
 			</div>
 
 			<div className="work__galery-box">

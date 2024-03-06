@@ -11,7 +11,7 @@ function Services() {
 			<div className="services__text-box">
 				<h5>Main Services</h5>
 				<h2>We Offer a Range of Services to Meet All Types of Needs</h2>
-				<a>get a contact <FaArrowRight /></a>
+				<a href='mailto:rthyssen73@gmail.com'  target="_blank">get a contact <FaArrowRight /></a>
 			</div>
 
 			<div className="services__main-box">
