@@ -46,32 +46,10 @@
 		}
 	}
 }
-// @media (min-width: 1060px) {
-// 	.work {
-// 		flex-direction: row;
-// 		flex-wrap: wrap;
-// 		.work__galery-box {
-// 			flex: 1 1 70%;
-// 			width: 100px;
-// 			order: 2;
-// 			.image-gallery {
-// 				padding: 0 2rem 0 0;
-// 				width: 100%;
-// 			}
-// 		}
-// 		.work__text-box {
-// 			flex: 1 1 30%;
-// 			padding: 0 0 0 2rem;
-// 			display: flex;
-// 			flex-direction: column;
-// 			justify-content: center;
-// 			h5 {
-// 				text-transform: uppercase;
-// 				width: min(250px, 90vw);
-// 			}
-// 			h2 {
-// 				width: min(250px, 90vw);
-// 			}
-// 		}
-// 	}
-// }
+@media (min-width: 1060px) {
+	.work {
+		.work__text-box {
+			padding-bottom: 1rem;
+		}
+	}
+}

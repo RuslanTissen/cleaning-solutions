@@ -14,7 +14,7 @@ function Work() {
 
 			<div className="work__text-box">
 				<h5>Recent services provided</h5>
-				<h2>We assisted our clients</h2>
+				<h2>We assisted our clients.</h2>
 				<a>get a contact <FaArrowRight /></a>
 			</div>
 
@@ -22,15 +22,12 @@ function Work() {
 			<Carousel>
                 <div>
                     <img src={work1} />
-                    {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
                     <img src={work2}/>
-                    {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>
                     <img src={work3}/>
-                    {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
 			</div>
