@@ -5,6 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: "Roboto Condensed", sans-serif;
 	
 	.introduction__img {
 		width: 100%;
@@ -32,7 +33,7 @@
 		padding: 2rem 2rem 0 0;
 		border-bottom: .1px solid rgb(167, 164, 164);
 		margin-bottom: 3rem;
-		h3 {
+		h2 {
 			width: fit-content;
 			text-transform: uppercase;
 			font-weight: 300;
@@ -42,7 +43,7 @@
 			display: flex;
 			flex-direction: column;
 			span {
-				font-size: 0.6rem;
+				font-size: 0.8rem;
 				font-weight: 300;
 				font-style: italic;
 			}
@@ -79,7 +80,7 @@
 			border-bottom: none;
 			display: flex;
 			flex-wrap: wrap;
-			h3 {
+			h2 {
 				flex: 1 1 70%;
 				margin: auto;
 				padding: 0;
