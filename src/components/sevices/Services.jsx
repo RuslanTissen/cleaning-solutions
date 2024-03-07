@@ -6,7 +6,7 @@ import { AiOutlineHome } from "react-icons/ai";
 
 function Services() {
 	return (
-		<div className='services'>
+		<div className='services' id='services'>
 
 			<div className="services__text-box">
 				<h5>Main Services</h5>

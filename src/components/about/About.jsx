@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function About() {
 	return (
-		<div className='about'>
+		<div className='about' id='about'>
 
 			<div className="about__image">
 				<div className="about__image--self"></div>

@@ -37,29 +37,29 @@ function Header() {
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
-				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</NavLink> </li>
+				<li className='logo-box'><a href="#header" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</a> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 
 				{show && <ul className="humburger-menu__container" onClick={() => myFunction()}>
-					<li className='humburger-menu__container--link'><NavLink to="Home" onClick={scrollToTheTop}>Home</NavLink> </li>
-					<li className='humburger-menu__container--link'><NavLink to="About" onClick={scrollToTheTop}>About</NavLink> </li>
-					<li className='humburger-menu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>Services</NavLink> </li>
-					<li className='humburger-menu__container--link'><NavLink to='Contact' onClick={scrollToTheTop}>Contact</NavLink></li>
+					<li className='humburger-menu__container--link'><a href="#header" onClick={scrollToTheTop}>Home</a> </li>
+					<li className='humburger-menu__container--link'><a href="#about" to="About" onClick={scrollToTheTop}>About</a> </li>
+					<li className='humburger-menu__container--link'><a href="#services"  onClick={scrollToTheTop}>Services</a> </li>
+					<li className='humburger-menu__container--link'><a href="#contact"  onClick={scrollToTheTop}>Contact</a></li>
 				</ul>}
 			</ul>
 
 			<div className='header__big-container' >
 				{/* <div className="ul__container"> */}
 					<ul className='header__big-container--ul'>
-						<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</NavLink> </li>
+						<li className='logo-box'><a href="#header" onClick={scrollToTheTop}><span>LONGO </span>  Cleaning</a> </li>
 
 						{/* <li className='li1'><NavLink to="*" onClick={scrollToTheTop}></NavLink> </li> */}
-						<li className='humburger-menu__container--link'><NavLink to="Home" onClick={scrollToTheTop}>Home</NavLink> </li>
-						<li className='humburger-menu__container--link'><NavLink to="About" onClick={scrollToTheTop}>About</NavLink> </li>
-						<li className='humburger-menu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>Services</NavLink> </li>
-						<li className='humburger-menu__container--link'><NavLink to='Contact' onClick={scrollToTheTop}>Contact</NavLink></li>
+						<li className='humburger-menu__container--link'><a href="#header" onClick={scrollToTheTop}>Home</a> </li>
+						<li className='humburger-menu__container--link'><a href="#about"  to="About" onClick={scrollToTheTop}>About</a> </li>
+						<li className='humburger-menu__container--link'><a href="#services"  onClick={scrollToTheTop}>Services</a> </li>
+						<li className='humburger-menu__container--link'><a href="#contact"  onClick={scrollToTheTop}>Contact</a></li>
 					</ul>
 				</div>
 			{/* </div> */}
