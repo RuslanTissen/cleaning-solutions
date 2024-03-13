@@ -13,23 +13,24 @@ function Work() {
 		<div className='work'>
 
 			<div className="work__text-box">
-				<h5>Recent services provided</h5>
-				<h2>We assisted our clients.</h2>
-				<a href='mailto:rthyssen73@gmail.com'  target="_blank">get a contact <FaArrowRight /></a>
+				<h5>houskeeping services</h5>
+				<h2>We assist our clients.</h2>
+				<p>Experience the convenience and comfort of our housekeeping services. Our dedicated team ensures your home remains immaculate, allowing you to focus on what matters most. From thorough cleaning to meticulous organization, we tailor our services to meet your unique needs. Trust us to maintain a welcoming and orderly space that you can be proud to call home.</p>
+				<a href='mailto:rthyssen73@gmail.com' target="_blank">get a contact <FaArrowRight /></a>
 			</div>
 
 			<div className="work__galery-box">
-			<Carousel>
-                <div>
-                    <img src={work1} />
-                </div>
-                <div>
-                    <img src={work2}/>
-                </div>
-                <div>
-                    <img src={work3}/>
-                </div>
-            </Carousel>
+				<Carousel>
+					<div>
+						<img src={work1} loading='lazy' />
+					</div>
+					<div>
+						<img src={work2} loading='lazy' />
+					</div>
+					<div>
+						<img src={work3} loading='lazy' />
+					</div>
+				</Carousel>
 			</div>
 
 		</div>
