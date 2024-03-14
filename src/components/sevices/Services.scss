@@ -46,7 +46,7 @@
 			display: flex;
 			.commercial--text,
 			.residential--text {
-				flex: 1 1 70%;
+				flex: 1 1 60%;
 				padding: clamp(1rem, 2vw, 2rem) 2rem 0 0;
 				svg {
 					font-size: clamp(2rem, 3vw, 3rem);
@@ -61,7 +61,7 @@
 			}
 			.commercial--image,
 			.residential--image {
-				flex: 1 1 30%;
+				flex: 1 1 40%;
 				padding: 1rem 0;
 				.commercial--image--self,
 				.residential--image--self {
