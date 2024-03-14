@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import "./Work.scss"
 import { FaArrowRight } from 'react-icons/fa'
+import work from "../../images/work.jpg"
 import work1 from "../../images/work1.jpg"
 import work2 from "../../images/work2.jpg"
 import work3 from "../../images/work3.jpg"
+import work4 from "../../images/work4.jpg"
+import work5 from "../../images/work5.jpg"
+import work6 from "../../images/work6.jpg"
 // import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -25,10 +29,22 @@ function Work() {
 						<img src={work1} loading='lazy' />
 					</div>
 					<div>
+						<img src={work} loading='lazy' />
+					</div>
+					<div>
 						<img src={work2} loading='lazy' />
 					</div>
 					<div>
 						<img src={work3} loading='lazy' />
+					</div>
+					<div>
+						<img src={work4} loading='lazy' />
+					</div>
+					<div>
+						<img src={work5} loading='lazy' />
+					</div>
+					<div>
+						<img src={work6} loading='lazy' />
 					</div>
 				</Carousel>
 			</div>

@@ -1,4 +1,5 @@
 .header {
+	font-family: "Gruppo family", sans-serif;
 	padding: 0;
 	margin: 0;
 	.header__logo--container {
@@ -16,28 +17,31 @@
 		border: none;
 		.logo-box {
 			width: fit-content;
-			font-family: "Gruppo", sans-serif;
 			font-size: clamp(1.5rem, 2vw, 2rem);
 			display: flex;
 			align-items: center;
 			overflow: hidden;
 			a {
+				img {
+					width: 34px;
+					height: inherit;
+					margin: 0 0.5rem;
+				}
 				text-decoration: none;
 				height: 2rem;
 				display: flex;
 				align-items: center;
 				color: white;
-				font-weight: 500;
-				span {
-					margin-right: 0.5rem;
-					font-weight: 900;
-					// color: rgb(97, 5, 2);
-				}
+				// font-weight: 900;
+				// span {
+				// 	font-weight: 500;
+				// 	margin-right: 0.5rem;
+				// 	display: none;
+				// }
 			}
 		}
 		.hamburger-box {
 			width: fit-content;
-			font-family: "Tomorrow", sans-serif;
 			display: flex;
 			align-items: center;
 			justify-content: end;
@@ -114,10 +118,16 @@
 						width: fit-content;
 						display: flex;
 						align-items: center;
-						font-weight: 300;
+						// font-weight: 300;
 						color: white;
 						transition: all 0.3s ease-in-out;
+						img {
+							width: 56px;
+						}
 						span {
+							font-size: 50%;
+							margin: 7px 0 0 5px;
+
 							margin-right: 0.5rem;
 						}
 					}
