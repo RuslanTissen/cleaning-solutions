@@ -3,7 +3,7 @@ import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 // import { NavLink } from 'react-router-dom';
-import logo from "../../images/logo-trans.png"
+import logo from "../../images/gregor-new-logo-color.png"
 
 
 function Header() {
