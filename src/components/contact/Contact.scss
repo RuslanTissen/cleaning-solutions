@@ -23,6 +23,8 @@
 			}
 		}
 		.contact__link-box {
+			.contact--address {
+			}
 			.cont__link--dtls {
 				margin-block: 3rem;
 				h5 {
@@ -31,9 +33,13 @@
 				}
 				h6 {
 					margin: 3px;
-					a{
+					a {
 						color: white;
 					}
+				}
+				a {
+					// text-decoration: none;
+					color: white;
 				}
 			}
 		}
