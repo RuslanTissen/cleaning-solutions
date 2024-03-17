@@ -26,7 +26,7 @@ function Work() {
 			<div className="work__galery-box">
 				<Carousel>
 					<div>
-						<img src={work1} loading='lazy' />
+						<img src={work6} loading='lazy' />
 					</div>
 					<div>
 						<img src={work} loading='lazy' />
@@ -41,10 +41,10 @@ function Work() {
 						<img src={work4} loading='lazy' />
 					</div>
 					<div>
-						<img src={work5} loading='lazy' />
+						<img src={work1} loading='lazy' />
 					</div>
 					<div>
-						<img src={work6} loading='lazy' />
+						<img src={work5} loading='lazy' />
 					</div>
 				</Carousel>
 			</div>
